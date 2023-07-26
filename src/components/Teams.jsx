@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import EA from "../assets/EquityAnalyst.jpg";
 import VA from "../assets/VentureAnalyst.jpg";
 import CA from "../assets/CryptoAnalyst.jpg";
@@ -25,6 +26,9 @@ function Teams() {
                 public companies. We conduct fundamental analysis and produce
                 research reports and stock pitches that we share with the club.
               </p>
+              <Link to="/equityanalyst">
+                <button>View Papers</button>
+              </Link>
             </div>
             <div className="card-footer">
               <small className="text-muted">Active 2023-2024</small>
@@ -42,6 +46,9 @@ function Teams() {
                 the club. As a team, we work together to construct a Fantasy VC
                 portfolio.
               </p>
+              <Link to="/ventureanalyst">
+                <button>View Papers</button>
+              </Link>
             </div>
             <div className="card-footer">
               <small className="text-muted">Active 2023-2024</small>
@@ -54,11 +61,14 @@ function Teams() {
             <div className="card-body">
               <h5 className="card-title">Crypto Analyst Team</h5>
               <p className="card-text">
-                The Crypto Analyst team is a group dedicated to researching DeFi
-                projects and educating others about decentralized finance. Join
-                us to explore the revolutionary world of cryptocurrencies, make
-                informed decisions, and shape the future of finance.
+                The Crypto Analyst team is a group dedicated to researching and
+                educating others about decentralized finance. Join us to explore
+                the revolutionary world of cryptocurrencies and shape the future
+                of finance.
               </p>
+              <Link to="/cryptoanalyst">
+                <button>View Papers</button>
+              </Link>
             </div>
             <div className="card-footer">
               <small className="text-muted">Last Active 2022-2023</small>

@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../assets/22.23.3.jpg";
+
 function About() {
   return (
     <div className="about">
