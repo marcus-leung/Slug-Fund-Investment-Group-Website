@@ -8,8 +8,11 @@ import Footer from "./components/Footer";
 import Teams from "./components/Teams";
 import Photos from "./components/Photos";
 import Members from "./components/Members";
-import Research from "./components/ResearchTeams/Research";
-import Papers from "./components/ResearchTeams/Papers";
+import Research from "./components/Research";
+import EquityPapers from "./components/ResearchTeams/EquityPapers";
+import VenturePapers from "./components/ResearchTeams/VenturePapers";
+import CryptoPapers from "./components/ResearchTeams/CryptoPapers";
+
 
 function App() {
   return (
@@ -22,15 +25,15 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="equityanalyst" element={<Research group="Equity Analyst"/>} >
-            <Route path="" element={<Papers />}>
+            <Route path="" element={<EquityPapers />}>
             </Route>
           </Route>
           <Route path="ventureanalyst" element={<Research group="Venture Analyst"/>} >
-            <Route path="" element={<Papers />}>
+            <Route path="" element={<VenturePapers />}>
             </Route>
           </Route>
           <Route path="cryptoanalyst" element={<Research group="Crypto Analyst"/>} >
-            <Route path="" element={<Papers />}>
+            <Route path="" element={<CryptoPapers />}>
             </Route>
           </Route>
           <Route path="/members" element={<Members />} />

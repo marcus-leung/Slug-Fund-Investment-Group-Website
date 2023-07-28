@@ -5,13 +5,13 @@ function Papers() {
     <div className="paper">
       <div className="container">
         <div className="row">
-          <h1>paper 1</h1>
+          <h1>equity paper 1</h1>
         </div>
         <div className="row">
           <p>text here</p>
         </div>
         <div className="row">
-          <h1>paper 2</h1>
+          <h1>equity paper 2</h1>
         </div>
         <div className="row">
           <p>text here</p>
