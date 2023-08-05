@@ -8,9 +8,9 @@ function Contact() {
           <div className="col-7 py-5 my-5">
           <h1 className="py-2 font-weight-bold">Get In Touch</h1>
           <h3>Email: slugsfundig@gmail.com</h3>
-          <h3>Instagram: <a href="https://www.instagram.com/ucsc.sfig/">https://www.instagram.com/ucsc.sfig/</a></h3>
-          <h3>Twitter: <a href="https://twitter.com/SFIG_UCSC">https://twitter.com/SFIG_UCSC</a></h3>
-          <h3>Discord: <a href="https://discord.gg/zcm5rgkrRS">https://discord.gg/zcm5rgkrRS</a></h3>
+          <h3>Instagram: <a href="https://www.instagram.com/ucsc.sfig/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/ucsc.sfig/</a></h3>
+          <h3>Twitter: <a href="https://twitter.com/SFIG_UCSC" target="_blank" rel="noopener noreferrer">https://twitter.com/SFIG_UCSC</a></h3>
+          <h3>Discord: <a href="https://discord.gg/zcm5rgkrRS" target="_blank" rel="noopener noreferrer">https://discord.gg/zcm5rgkrRS</a></h3>
           <h4>Join the club by joining the discord!</h4>
           </div>
         </div>

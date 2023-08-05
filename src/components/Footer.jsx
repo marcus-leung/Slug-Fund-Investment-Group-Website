@@ -14,7 +14,7 @@ function Footer() {
           </p>
           <div className="icons col">
             <div className="text-right">
-              <Link to="https://www.instagram.com/ucsc.sfig/">
+              <Link to="https://www.instagram.com/ucsc.sfig/" target="_blank" rel="noopener noreferrer">
                 <img
                   width="50px"
                   height="50px"
@@ -22,7 +22,7 @@ function Footer() {
                   alt="instagram"
                 ></img>
               </Link>
-              <Link to="https://twitter.com/SFIG_UCSC">
+              <Link to="https://twitter.com/SFIG_UCSC" target="_blank" rel="noopener noreferrer">
                 <img
                   width="50px"
                   height="50px"

@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/22.23.3.jpg";
+import image from "../assets/YearlyPhotos/2022-2023/22.23.3.jpg";
 
 function About() {
   return (
