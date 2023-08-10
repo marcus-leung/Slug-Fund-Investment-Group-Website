@@ -28,10 +28,10 @@ function Photos() {
           </h1>
           <hr />
           <div className="row">
-            <img className="img-fluid p-1" width="25%" height="50%" src={image3} alt=""></img>
-            <img className="img-fluid p-1" width="25%" height="50%" src={image4} alt=""></img>
-            <img className="img-fluid p-1" width="25%" height="50%" src={image5} alt=""></img>
-            <img className="img-fluid p-1" width="25%" height="50%" src={image6} alt=""></img>
+            <img className="img-fluid p-1" width="25%" height="50%" src={image3} alt="movie night"></img>
+            <img className="img-fluid p-1" width="25%" height="50%" src={image4} alt="movie night"></img>
+            <img className="img-fluid p-1" width="25%" height="50%" src={image5} alt="movie night"></img>
+            <img className="img-fluid p-1" width="25%" height="50%" src={image6} alt="movie night"></img>
           </div>
           <h1 className="font-weight-bold text-center pt-4">Movie Night 2021-2022</h1>
         </div>
