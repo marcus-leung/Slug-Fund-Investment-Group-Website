@@ -1,7 +1,7 @@
 import React from "react";
 import Person from "./Person";
-import Brian from "../assets/MemberPhotos/Brian.jpg";
-import Jinsung from "../assets/MemberPhotos/Jinsung.jpg";
+import Brian from "../assets/MemberPhotos/Brian.png";
+import Jinsung from "../assets/MemberPhotos/Jinsung.png";
 import Marcus from  "../assets/MemberPhotos/Marcus.jpg";
 
 function Members() {

@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Teams from "./components/Teams";
 import Photos from "./components/Photos";
 import Members from "./components/Members";
+import PageNotFound from "./components/PageNotFound";
 import Research from "./components/Research";
 import EquityPapers from "./components/ResearchTeams/EquityPapers";
 import VenturePapers from "./components/ResearchTeams/VenturePapers";
@@ -38,6 +39,7 @@ function App() {
           </Route>
           <Route path="/members" element={<Members />} />
           <Route path="/photos" element={<Photos />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </Router>
