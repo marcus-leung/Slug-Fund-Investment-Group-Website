@@ -2,23 +2,18 @@ import React from "react";
 import image from "../assets/YearlyPhotos/2022-2023/22.23.2.jpg";
 import discord from "../assets/discord.png";
 import { Link } from "react-router-dom";
+import texts from "../data/texts";
 
 function Home() {
+  const homeText = texts.home;
+
   return (
     <div className="home">
       <div className="container py-5">
         <div className="row align-items-center my-5">
           <div className="col-lg-5">
-            <h1 className="font-weight-light">
-              Welcome to Slug Fund Investment Group!
-            </h1>
-            <p className="lead">
-              We are a group of passionate students interested in learning about
-              the world of finance and investments at UCSC. Our club aims to
-              empower individuals with the knowledge, tools, and support they
-              need to make informed investment decisions and achieve financial
-              success.
-            </p>
+            <h1 className="font-weight-light">{homeText.title}</h1>
+            <p className="lead">{homeText.description}</p>
           </div>
           <div className="col-lg-7">
             <img
@@ -33,10 +28,7 @@ function Home() {
         <div className="container">
           <div className="row align-items-center my-5">
             <div className="col-lg-7 ">
-              <h2>
-                Join our club and become part of our vibrant community by
-                joining our Discord server.
-              </h2>
+              <h2>{homeText.description2}</h2>
             </div>
             <div className="col-lg-5">
               <Link to="https://discord.gg/zcm5rgkrRS">

@@ -1,13 +1,13 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import Teams from "./components/Teams";
-import Photos from "./components/Photos";
-import Members from "./components/Members";
+import Teams from "./pages/Teams";
+import Photos from "./pages/Photos";
+import Officers from "./pages/Officers";
 import PageNotFound from "./components/PageNotFound";
 import Research from "./components/Research";
 import EquityPapers from "./components/ResearchTeams/EquityPapers";
@@ -37,7 +37,7 @@ function App() {
             <Route path="" element={<CryptoPapers />}>
             </Route>
           </Route>
-          <Route path="/members" element={<Members />} />
+          <Route path="/officers" element={<Officers />} />
           <Route path="/photos" element={<Photos />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>

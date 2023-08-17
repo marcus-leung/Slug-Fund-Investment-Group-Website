@@ -1,12 +1,12 @@
 import React from "react";
-import Person from "./Person";
+import Person from "../components/Person";
 import Brian from "../assets/MemberPhotos/Brian.png";
 import Jinsung from "../assets/MemberPhotos/Jinsung.png";
 import Marcus from  "../assets/MemberPhotos/Marcus.jpg";
 
 function Members() {
   return (
-    <div className="members">
+    <div className="officers">
       <div className="container">
         <div className="row pt-5">
           <div className="col-3" align="center">
