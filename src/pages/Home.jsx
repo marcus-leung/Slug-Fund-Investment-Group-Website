@@ -3,6 +3,7 @@ import image from "../assets/YearlyPhotos/2022-2023/22.23.2.jpg";
 import discord from "../assets/discord.png";
 import { Link } from "react-router-dom";
 import texts from "../data/texts";
+import Brian from "../assets/MemberPhotos/Brian.png";
 
 function Home() {
   const homeText = texts.home;
@@ -42,6 +43,17 @@ function Home() {
                 ></img>
               </Link>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row align-items-center my-5">
+          <div className="col-lg-4">
+            <img className="img-fluid rounded" style={{border: "7px solid black"}} src={Brian} alt="president" />
+          </div>
+          <div className="col-lg">
+            <h1>{homeText.title2}</h1>
+            <p>{homeText.description3}</p>
           </div>
         </div>
       </div>

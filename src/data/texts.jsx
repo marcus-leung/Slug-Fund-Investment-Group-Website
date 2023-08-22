@@ -5,7 +5,9 @@ const texts = {
       "We are a group of passionate students interested in learning about the world of finance and investments at UCSC. Our club aims to empower individuals with the knowledge, tools, and support they need to make informed investment decisions and achieve financial success.",
     description2:
       "Join our club and become part of our vibrant community by joining our Discord server.",
-  },
+    title2: "A message from the President",
+    description3: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, explicabo assumenda labore expedita autem, vero debitis dignissimos vitae, similique natus facilis ex architecto cumque ipsum nesciunt quos maiores dolores temporibus quo exercitationem ea commodi alias.",
+    },
   about: {
     title: "Who We Are",
     description:
