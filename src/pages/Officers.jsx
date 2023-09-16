@@ -33,12 +33,12 @@ function Members() {
             <Person name="Kevin" role="Director of Content" />
           </div>
           <div className="col-3" align="center">
-            <Person name="Tensi" role="Officer of Content" />
+            <Person name="Tensi Vilchis" role="Officer of Content" />
           </div>
         </div>
         <div className="row py-5">
           <div className="col-3" align="center">
-            <Person name="Alex" role="Equity Analyst Lead" />
+            <Person name="Alex Kosan" role="Equity Analyst Lead" />
           </div>
           <div className="col-3" align="center">
             <Person name="Bruno" role="Venture Capital Lead" />
