@@ -14,7 +14,7 @@
   background-color: #E1D5A4;
 }
 
-.tx-yellow {
+.tx-yellow, .navbar-brand:hover{
   color: #E1D5A4;
 }
 
