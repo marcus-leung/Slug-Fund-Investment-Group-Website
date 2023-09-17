@@ -1,25 +1,26 @@
 .bg-blue {
-  background-color: #0A14E2;
-} 
+  background-color: #0a14e2;
+}
 
 .bg-light-blue {
-  background-color: #485D94;
+  background-color: #485d94;
 }
 
 .bg-light-green {
-  background-color: #7A968C;
+  background-color: #7a968c;
 }
 
 .bg-yellow {
-  background-color: #E1D5A4;
+  background-color: #e1d5a4;
 }
 
-.tx-yellow, .navbar-brand:hover{
-  color: #E1D5A4;
+.tx-yellow,
+.navbar-brand:hover {
+  color: #e1d5a4;
 }
 
 .tx-dark-blue {
-  color: #141C3E;
+  color: #141c3e;
 }
 
 .nav-link:hover {
@@ -27,7 +28,7 @@
 }
 
 .zoom {
-  transition: transform .25s;
+  transition: transform 0.25s;
 }
 
 .zoom:hover {
@@ -38,4 +39,108 @@
   width: 100%;
   height: 22vw;
   object-fit: cover;
+}
+
+.fadeInLeft {
+  -webkit-animation: fadeInLeft 1.2s both;
+  -moz-animation: fadeInLeft 1.2s both;
+  -o-animation: fadeInLeft 1.2s both;
+  animation: fadeInLeft 1.2s both;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ---------- */
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 1.2s both;
+  -moz-animation: fadeInRight 1.2s both;
+  -o-animation: fadeInRight 1.2s both;
+  animation: fadeInRight 1.2s both;
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0);
+  }
+}
+
+@-o-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }

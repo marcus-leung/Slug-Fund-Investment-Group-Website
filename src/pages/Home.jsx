@@ -12,11 +12,11 @@ function Home() {
     <div className="home">
       <div className="container py-5">
         <div className="row align-items-center my-5">
-          <div className="col-lg-5">
+          <div className="col-lg-5 fadeInLeft">
             <h1 className="font-weight-light"><center>{homeText.title}</center></h1>
             <p className="lead pl-2">{homeText.description}</p>
           </div>
-          <div className="col-lg-7 pl-0">
+          <div className="col-lg-7 pl-0 fadeInRight">
             <img
               className="img-fluid rounded mb-5 ml-5"
               src={image}

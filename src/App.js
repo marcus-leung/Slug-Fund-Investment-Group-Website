@@ -14,7 +14,6 @@ import EquityPapers from "./components/ResearchTeams/EquityPapers";
 import VenturePapers from "./components/ResearchTeams/VenturePapers";
 import CryptoPapers from "./components/ResearchTeams/CryptoPapers";
 
-
 function App() {
   return (
     <div className="App">

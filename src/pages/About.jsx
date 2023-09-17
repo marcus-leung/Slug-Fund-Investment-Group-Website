@@ -8,16 +8,16 @@ function About() {
     <div className="about">
       <div className="container">
         <div className="row align-items-center my-5">
-          <div className="col-lg-7">
+          <div className="col-lg-7 fadeInLeft">
             <img
               className="img-fluid rounded mb-4 mb-lg-0"
               src={image}
               alt="sfig-3"
             />
           </div>
-          <div className="col-lg-5">
+          <div className="col-lg-5 fadeInRight">
             <h1 className="font-weight-light">{aboutText.title}</h1>
-            <p>{aboutText.description}</p>
+            <p style={{fontSize: "19px"}}>{aboutText.description}</p>
           </div>
         </div>
       </div>
