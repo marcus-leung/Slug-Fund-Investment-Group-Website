@@ -4,10 +4,11 @@ const texts = {
     description:
       "We are a group of passionate students interested in learning about the world of finance and investments at UCSC. Our club aims to empower individuals with the knowledge, tools, and support they need to make informed investment decisions and achieve financial success.",
     description2:
-      "Join our club and become part of our vibrant community by joining our Discord server.",
-    title2: "A message from the President",
-    description3: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, explicabo assumenda labore expedita autem, vero debitis dignissimos vitae, similique natus facilis ex architecto cumque ipsum nesciunt quos maiores dolores temporibus quo exercitationem ea commodi alias.",
-    },
+      "Join our club and become part of our vibrant community by joining our Discord server",
+    title2: "A message from the vice president",
+    description3: "Despite the diversity in backgrounds and the uniqueness of our perspectives, one thing that binds us together is the power of finance and the freedom it provides us. SFIG is a journey far more mesmerizing than simply investing; here, we challenge traditional power dynamics and knowledge that were previously gatekept by big investment firms, discussing nuanced topics ranging from government policies to venture capital.",
+    description4: "We are a community formed with the idea of bringing together like-minded individuals interested in personal finance who want to live a life free of the burdens imposed by the US dollar. For most people, money controls every facet of their lives; but with financial freedom, we can take control and make it work for us instead.",
+  },
   about: {
     title: "Who We Are",
     description:
