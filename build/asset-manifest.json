@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/slugfundinvestmentgroup.com/static/css/main.b2c18d88.css",
+    "main.js": "/slugfundinvestmentgroup.com/static/js/main.48254ce9.js",
+    "static/media/22.23.2.jpg": "/slugfundinvestmentgroup.com/static/media/22.23.2.8d7ba700d4d870601b71.jpg",
+    "static/media/21.22.4.jpg": "/slugfundinvestmentgroup.com/static/media/21.22.4.cfad8c0d905a81d154be.jpg",
+    "static/media/21.22.1.jpg": "/slugfundinvestmentgroup.com/static/media/21.22.1.633aed11c535f909acd1.jpg",
+    "static/media/21.22.2.jpg": "/slugfundinvestmentgroup.com/static/media/21.22.2.b2f0a21ef25cc1955c18.jpg",
+    "static/media/21.22.3.jpg": "/slugfundinvestmentgroup.com/static/media/21.22.3.f68f6168a4eb0e66b09e.jpg",
+    "static/media/sfig-logo.png": "/slugfundinvestmentgroup.com/static/media/sfig-logo.33e3833b6aabbb8ceaaa.png",
+    "static/media/Alayna.png": "/slugfundinvestmentgroup.com/static/media/Alayna.cea98903aef8574fbf8c.png",
+    "static/media/Alex.png": "/slugfundinvestmentgroup.com/static/media/Alex.6fc487bf9611f1058158.png",
+    "static/media/Tensi.png": "/slugfundinvestmentgroup.com/static/media/Tensi.8e4fb37c464ac2918c53.png",
+    "static/media/Jinsung.png": "/slugfundinvestmentgroup.com/static/media/Jinsung.d851e4d951faf007ff1b.png",
+    "static/media/Marcus.jpg": "/slugfundinvestmentgroup.com/static/media/Marcus.3f80d54cb16b044afa61.jpg",
+    "static/media/Brian.png": "/slugfundinvestmentgroup.com/static/media/Brian.201f9d7bd0a5b871fb9b.png",
+    "static/media/22.23.1.jpg": "/slugfundinvestmentgroup.com/static/media/22.23.1.58e2d211c13f504d9f45.jpg",
+    "static/media/EquityAnalyst.jpg": "/slugfundinvestmentgroup.com/static/media/EquityAnalyst.67b19c0a6229b504d455.jpg",
+    "static/media/22.23.3.jpg": "/slugfundinvestmentgroup.com/static/media/22.23.3.a358ee9729615bf8c34f.jpg",
+    "static/media/VentureAnalyst.jpg": "/slugfundinvestmentgroup.com/static/media/VentureAnalyst.b0088fea1dc7bf8ce4b9.jpg",
+    "static/media/Trevor.png": "/slugfundinvestmentgroup.com/static/media/Trevor.2fe739f386a8da46b396.png",
+    "static/media/Default-PFP.png": "/slugfundinvestmentgroup.com/static/media/Default-PFP.35bc69de1a3d8c8dbdee.png",
+    "static/media/CryptoAnalyst.jpg": "/slugfundinvestmentgroup.com/static/media/CryptoAnalyst.e49c2970562fc79accb7.jpg",
+    "static/media/discord.png": "/slugfundinvestmentgroup.com/static/media/discord.1925b01e736fb6bf1081.png",
+    "index.html": "/slugfundinvestmentgroup.com/index.html",
+    "main.b2c18d88.css.map": "/slugfundinvestmentgroup.com/static/css/main.b2c18d88.css.map",
+    "main.48254ce9.js.map": "/slugfundinvestmentgroup.com/static/js/main.48254ce9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2c18d88.css",
+    "static/js/main.48254ce9.js"
+  ]
+}

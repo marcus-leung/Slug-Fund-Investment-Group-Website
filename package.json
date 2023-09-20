@@ -1,5 +1,6 @@
 {
-  "name": "sfig-website",
+  "name": "slugfundinvestmentgroup-website",
+  "homepage": "slugfundinvestmentgroup.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
