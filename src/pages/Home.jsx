@@ -37,7 +37,7 @@ function Home() {
                   className="zoom"
                   style={{ marginLeft: "80px" }}
                   width="160px"
-                  height="160"
+                  height="160px"
                   src={discord}
                   alt="discord"
                 ></img>

@@ -3,18 +3,12 @@ import React from "react";
 function Papers() {
   return (
     <div className="paper">
-      <div className="container">
+      <div className="container" style={{height: "70vh"}}>
         <div className="row">
-          <h1>crypto paper 1</h1>
+          <h1>There are no papers currently</h1>
         </div>
         <div className="row">
-          <p>text here</p>
-        </div>
-        <div className="row">
-          <h1>crypto paper 2</h1>
-        </div>
-        <div className="row">
-          <p>text here</p>
+          <p>TBD</p>
         </div>
       </div>
     </div>
