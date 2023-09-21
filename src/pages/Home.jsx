@@ -18,7 +18,7 @@ function Home() {
           </div>
           <div className="col-lg-7 pl-0 fadeInRight">
             <img
-              className="img-fluid rounded mb-5 ml-5"
+              className="img-fluid rounded ml-4 pr-4"
               src={image}
               alt="sfig-group"
             />
