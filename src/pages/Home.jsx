@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="home">
       <div className="container py-5">
-        <div className="row align-items-center my-5">
+        <div className="row align-items-center my-5" style={{width: "100%"}}>
           <div className="col-lg-5 fadeInLeft">
             <h1 className="font-weight-light"><center>{homeText.title}</center></h1>
             <p className="lead pl-2">{homeText.description}</p>
