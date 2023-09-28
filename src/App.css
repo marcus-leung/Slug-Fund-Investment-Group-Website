@@ -148,3 +148,27 @@ p {
     transform: translateX(0);
   }
 }
+
+/*  */
+
+.collapsible {
+  width: 100%;
+  min-height: 90px;
+  background: rgb(222, 214, 214);
+}
+
+.content-parent {
+  height: 0px;
+  overflow: hidden;
+  transition: height ease 0.6s;
+  width: 100%;
+}
+  
+.content {
+  min-height: 90px;
+}
+  
+button > i {
+  position: absolute;
+  right: 1%;
+}
