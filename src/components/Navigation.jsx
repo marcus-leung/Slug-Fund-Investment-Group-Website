@@ -6,13 +6,13 @@ function Navigation() {
   return (
     <div className="navigation">
       <nav className="navbar navbar-expand-lg bg-light-blue">
-        <div className="container-fluid pl-3">
-          <NavLink className="navbar-brand tx-yellow" to="/">
+        <div className="container-fluid pl-2">
+          <NavLink className="navbar-brand tx-yellow" to="/" style={{ marginRight: "0"}}>
             <img
               src={logo}
               width="35"
               height="35"
-              style={{ marginRight: "15px" }}
+              style={{ marginRight: "12px" }}
               alt="sfig-logo"
             />
             Slug Fund Investment Group
@@ -26,6 +26,7 @@ function Navigation() {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{ margin: "0", padding: "5px" }}
           >
             <span class="navbar-toggler-icon"></span>
           </button>
