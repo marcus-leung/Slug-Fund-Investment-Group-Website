@@ -14,7 +14,7 @@ function Dropdown(props) {
   return (
     <div className="dropdown">
       <div className="row">
-        <button onClick={toggle} className="collapsible text-center pl-4">
+        <button onClick={toggle} className="collapsible text-left pl-4">
           {props.label}
           
           <i className="fa-solid fa-chevron-down "></i>
@@ -24,7 +24,7 @@ function Dropdown(props) {
           {open
             ? { height: contentRef.current.scrollHeight + "px" }
             : { height: "0px" }}>
-            <div className="content text-center">{props.children}</div>
+            <div className="content text-left py-3 px-3">{props.children}</div>
         </div>
       </div>
     </div>

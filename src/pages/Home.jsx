@@ -4,6 +4,7 @@ import image from "../assets/YearlyPhotos/2022-2023/22.23.2.jpg";
 import discord from "../assets/discord.png";
 import { Link } from "react-router-dom";
 import texts from "../data/texts";
+import faq from "../data/faq";
 import Jinsung from "../assets/MemberPhotos/Jinsung.png";
 
 function Home() {
@@ -69,16 +70,28 @@ function Home() {
       <div className="bg-yellow py-4">
         <div className="container my-5">
           <div className="section-title row justify-content-center">
-            <h1>FAQ</h1>
+            <h1 className="mb-4">FAQ</h1>
           </div>
-            <Dropdown label="test">
-              <p>answer</p>
+            <Dropdown label={faq.faq1.question1}>
+              <p>{faq.faq1.answer1}</p>
             </Dropdown>
-            <Dropdown label="test">
-              <p>answer</p>
+            <Dropdown label={faq.faq2.question2}>
+              <p>{faq.faq2.answer2}</p>
             </Dropdown>
-            <Dropdown label="test">
-              <p>answer</p>
+            <Dropdown label={faq.faq3.question3}>
+              <p>{faq.faq3.answer3}</p>
+            </Dropdown>
+            <Dropdown label={faq.faq4.question4}>
+              <p>{faq.faq4.answer4}</p>
+            </Dropdown>
+            <Dropdown label={faq.faq5.question5}>
+              <p>{faq.faq5.answer5}</p>
+            </Dropdown>
+            <Dropdown label={faq.faq6.question6}>
+              <p>{faq.faq6.answer6}</p>
+            </Dropdown>
+            <Dropdown label={faq.faq7.question7}>
+              <p>{faq.faq7.answer7}</p>
             </Dropdown>
         </div>
       </div>
