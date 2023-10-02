@@ -14,6 +14,7 @@ function Navigation() {
               height="35"
               style={{ marginRight: "12px" }}
               alt="sfig-logo"
+              className="logo"
             />
             Slug Fund Investment Group
           </NavLink>

@@ -177,3 +177,11 @@ button > i {
   position: absolute;
   right: 1%;
 }
+
+/*  */
+
+@media (max-width: 375px) { 
+
+.logo { display: none; }  
+  
+}
