@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import texts from "../data/texts";
 import faq from "../data/faq";
 import Jinsung from "../assets/MemberPhotos/Jinsung.png";
+import QRcode from "../assets/qrcode.png";
 
 function Home() {
   const homeText = texts.home;
@@ -44,8 +45,17 @@ function Home() {
                   height="160px"
                   src={discord}
                   alt="discord"
-                ></img>
+                />
               </Link>
+            </div>
+          </div>
+          <div className="row align-items-center my-4">
+            <div className="col-lg-4">
+              <img width="220px" height="220px" alt="QRCode" src={QRcode} />
+            </div>
+            <div className="col-lg-7">
+              <h2>Join our mailing list through the QR Code</h2>
+              <h3>(make sure to sign into your ucsc email)</h3>
             </div>
           </div>
         </div>

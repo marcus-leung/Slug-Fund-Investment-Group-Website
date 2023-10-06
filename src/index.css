@@ -1,5 +1,6 @@
-body {
+html, body {
   margin: 0;
   font-family: Georgia, Times, 'Times New Roman', serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
