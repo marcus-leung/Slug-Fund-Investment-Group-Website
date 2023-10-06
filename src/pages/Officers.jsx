@@ -28,9 +28,6 @@ function Members() {
         </div>
         <div className="row py-5">
           <div className="col-3" align="center">
-            <Person name="Darren Yu" role="Officer of External Affairs" />
-          </div>
-          <div className="col-3" align="center">
             <Person img={Trevor} name="Trevor Le" role="Officer of External Affairs" />
           </div>
           <div className="col-3" align="center">
@@ -39,11 +36,11 @@ function Members() {
           <div className="col-3" align="center">
             <Person img={Tensi} name="Tensi Vilchis" role="Officer of Content" />
           </div>
-        </div>
-        <div className="row py-5">
           <div className="col-3" align="center">
             <Person img={Alex} name="Alex Kosan" role="Equity Analyst Lead" />
           </div>
+        </div>
+        <div className="row py-5">
           <div className="col-3" align="center">
             <Person name="Bruno" role="Venture Capital Lead" />
           </div>
