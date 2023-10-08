@@ -7,6 +7,7 @@ import texts from "../data/texts";
 import faq from "../data/faq";
 import Jinsung from "../assets/MemberPhotos/Jinsung.png";
 import QRcode from "../assets/qrcode.png";
+import Loc from "../assets/meeting_loc.png";
 
 function Home() {
   const homeText = texts.home;
@@ -27,6 +28,20 @@ function Home() {
               src={image}
               alt="sfig-group"
             />
+          </div>
+        </div>
+      </div>
+      <div className="bg-light-blue py-5">
+        <div className="container py-4">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <img src={Loc}
+              width="110%"
+              height="110%"/>
+            </div>
+            <div className="col-lg-5 offset-lg-1">
+              <h2>Weekly Meetings on Thurdays 8pm-9pm in Social Science 2 Room 71!</h2>
+            </div>
           </div>
         </div>
       </div>
