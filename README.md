@@ -1,5 +1,6 @@
 # Slug-Fund-Investment-Group-Website
-Official Slug Fund Investment Group Website from the University of California Santa Cruz (UCSC)
+Official Slug Fund Investment Group Website from the University of California Santa Cruz (UCSC)        
+Link: [slugfundinvestmentgroup.com](https://slugfundinvestmentgroup.com/)
 
 ## Description
 Welcome to the official website of SFIG, where we bring together like-minded individuals who share a passion for investing. Our website is designed to provide you with information about the club and ways to join the vibrant community.
@@ -32,7 +33,3 @@ We welcome contributions from passionate individuals who want to make our websit
 
 ## Contact
 If you have any questions, suggestions, or concerns, please feel free to reach out to us at [slugsfundig@gmail.com](mailto:slugsfundig@gmail.com) or connect with us on [Discord](https://discord.gg/zcm5rgkrRS).
-
-# For developers
-To run locally: npm start
-To build: npm build
