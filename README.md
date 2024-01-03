@@ -32,3 +32,7 @@ We welcome contributions from passionate individuals who want to make our websit
 
 ## Contact
 If you have any questions, suggestions, or concerns, please feel free to reach out to us at [slugsfundig@gmail.com](mailto:slugsfundig@gmail.com) or connect with us on [Discord](https://discord.gg/zcm5rgkrRS).
+
+# For developers
+To run locally: npm start
+To build: npm build
