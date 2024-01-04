@@ -8,7 +8,7 @@ function Person(props) {
       {props.img ? (
         <img
           src={props.img}
-          className="img-fluid"
+          className=""
           height="192px"
           width="192px"
         />
@@ -16,8 +16,8 @@ function Person(props) {
         <img
           src={defaultImage}
           className="img-fluid"
-          height="150px"
-          width="150px"
+          height="192px"
+          width="192px"
         />
       )}
       <div className="pt-3" style={{ fontSize: "22.5px" }}>
