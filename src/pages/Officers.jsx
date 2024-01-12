@@ -9,6 +9,7 @@ import Alex from "../assets/MemberPhotos/Alex.png";
 import Ryan from "../assets/MemberPhotos/Ryan.png";
 import Josephine from "../assets/MemberPhotos/Josephine.png";
 import MJ from "../assets/MemberPhotos/MJ.png";
+import Kevin from "../assets/MemberPhotos/Kevin.png";
 
 function Members() {
   return (
@@ -52,7 +53,7 @@ function Members() {
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
             align="center"
           >
-            <Person name="Kevin Habek" role="Director of Content" />
+            <Person img={Kevin} name="Kevin Habek" role="Director of Content" />
           </div>
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
