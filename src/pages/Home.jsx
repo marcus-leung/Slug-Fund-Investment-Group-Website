@@ -76,6 +76,16 @@ function Home() {
         </div>
       </div>
       <div className="container">
+        <div className="row justify-content-center text-center my-5 py-5">
+          <h1 className="mb-4">UC Investments Partnership</h1>
+          <h4>{homeText.uci}</h4>
+          <h2>More Info/Apply Here: &nbsp;
+            <a href="https://drive.google.com/file/d/1AXeiQMA8W1nx8U9NXwum9QEEy0J2Xy8c/view" target="_blank">UC Investments</a>
+          </h2>
+        </div>
+      </div>
+      <div className="bg-light-blue py-5">
+      <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-4">
             <img
@@ -87,10 +97,11 @@ function Home() {
           </div>
           <div className="col-lg">
             <h1>{homeText.title2}</h1>
-            <p>{homeText.description3}</p>
-            <p>{homeText.description4}</p>
+            <h5>{homeText.description3}</h5>
+            <h5>{homeText.description4}</h5>
           </div>
         </div>
+      </div>
       </div>
       <div className="bg-yellow py-4">
         <div className="container my-5">
