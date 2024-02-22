@@ -2,6 +2,7 @@ import React from "react";
 import insta from "../assets/instagram-logo.jpg";
 import twitter from "../assets/twitter-logo.jpg";
 import { Link } from "react-router-dom";
+import { BsTwitterX, BsLinkedin, BsInstagram } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -15,20 +16,24 @@ function Footer() {
           <div className="icons col">
             <div className="text-right">
               <Link to="https://www.instagram.com/ucsc.sfig/" target="_blank" rel="noopener noreferrer">
-                <img
-                  width="50px"
-                  height="50px"
-                  src={insta}
-                  alt="instagram"
-                ></img>
+                <BsInstagram                   
+                  size={32}
+                  color="white"
+                  className="mr-2"
+                  alt="Instagram"/>
               </Link>
               <Link to="https://twitter.com/SFIG_UCSC" target="_blank" rel="noopener noreferrer">
-                <img
-                  width="50px"
-                  height="50px"
-                  src={twitter}
-                  alt="twitter"
-                ></img>
+              <BsTwitterX                   
+                  size={32}
+                  color="white"
+                  className="mr-2"
+                  alt="Twitter/x"/>
+              </Link>
+              <Link to="https://www.linkedin.com/school/slugfundinvestmentgroup/" target="_blank" rel="noopener noreferrer">
+              <BsLinkedin                   
+                  size={32}
+                  color="white"
+                  alt="Linkedin"/>
               </Link>
             </div>
           </div>
