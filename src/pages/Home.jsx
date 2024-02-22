@@ -36,6 +36,7 @@ function Home() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <img src={Loc}
+              alt="Location on map"
               width="110%"
               height="110%"/>
             </div>
@@ -80,7 +81,7 @@ function Home() {
           <h1 className="mb-4">UC Investments Partnership</h1>
           <h4>{homeText.uci}</h4>
           <h2>More Info/Apply Here: &nbsp;
-            <a href="https://drive.google.com/file/d/1AXeiQMA8W1nx8U9NXwum9QEEy0J2Xy8c/view" target="_blank">UC Investments</a>
+            <a href="https://drive.google.com/file/d/1AXeiQMA8W1nx8U9NXwum9QEEy0J2Xy8c/view" target="_blank" rel="noopener noreferrer">UC Investments</a>
           </h2>
         </div>
       </div>

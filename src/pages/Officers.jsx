@@ -15,18 +15,19 @@ function Members() {
   return (
     <div className="officers">
       <div className="container">
-        <div className="row pt-5 my-5">
+      <h1 className="mt-5 p5-5" align="center">Officers</h1>
+        <div className="row pt-3 my-3">
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
             align="center"
           >
-            <Person img={Brian} name="Brian Shen" role="President" />
+            <Person img={Brian} name="Brian Shen" role="President" linkedin="https://www.linkedin.com/in/baihe-shen-591125244/"/>
           </div>
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
             align="center"
           >
-            <Person img={Jinsung} name="Jinsung Park" role="Vice President" />
+            <Person img={Jinsung} name="Jinsung Park" role="Vice President" linkedin="https://www.linkedin.com/in/floofyjin/"/>
           </div>
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
@@ -36,6 +37,7 @@ function Members() {
               img={Alayna}
               name="Alayna Rangel"
               role="Director of External Affairs"
+              linkedin="https://www.linkedin.com/in/alayna-rangel-818484166/"
             />
           </div>
           <div
@@ -46,6 +48,7 @@ function Members() {
               img={Marcus}
               name="Marcus Leung"
               role="Web Developer | Officer of External Affairs"
+              linkedin="https://www.linkedin.com/in/marcus-leung-582006252/"
             />
           </div>
 
@@ -108,6 +111,50 @@ function Members() {
             />
           </div>
         </div>
+      </div>
+      <div className="container">
+        <h1 className="" align="center">Alumni</h1>
+      <div className="row pt-3 my-3">
+          <div
+            className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+            align="center"
+          >
+            <Person name="Steven Shieh" role="President"/>
+          </div>
+          <div
+            className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+            align="center"
+          >
+            <Person name="Carter Wang" role="Vice President | Venture Capital Lead"/>
+          </div>
+          <div
+            className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+            align="center"
+          >
+            <Person
+              name="Tim Vidales"
+              role="Director of Content"
+            />
+          </div>
+          <div
+            className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+            align="center"
+          >
+            <Person
+              name="Jackson Kohls"
+              role="Crypto Lead"
+            />
+        </div>
+        <div
+            className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
+            align="center"
+          >
+            <Person
+              name="Thiago Brasile"
+              role="Equity Analyst Lead"
+            />
+        </div>
+      </div>
       </div>
     </div>
   );
