@@ -62,7 +62,7 @@ function Members() {
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
             align="center"
           >
-            <Person img={Alex} name="Alex Kosan" role="Equity Analyst Lead" />
+            <Person img={Alex} name="Alex Kosan" role="Equity Analyst Lead" linkedin="https://www.linkedin.com/in/akosan/"/>
           </div>
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
