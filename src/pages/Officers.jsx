@@ -10,6 +10,7 @@ import Ryan from "../assets/MemberPhotos/Ryan.png";
 import Josephine from "../assets/MemberPhotos/Josephine.png";
 import MJ from "../assets/MemberPhotos/MJ.png";
 import Kevin from "../assets/MemberPhotos/Kevin.png";
+import Bruno from "../assets/MemberPhotos/Bruno.png";
 
 function Members() {
   return (
@@ -68,7 +69,7 @@ function Members() {
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
             align="center"
           >
-            <Person name="Bruno Madrid" role="Venture Capital Lead" />
+            <Person img={Bruno} name="Bruno Madrid" role="Venture Capital Lead" linkedin="https://www.linkedin.com/in/brunoramamadrid/"/>
           </div>
           <div
             className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"
