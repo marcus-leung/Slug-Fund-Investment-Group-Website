@@ -1,18 +1,11 @@
 import React from "react";
-import image from "../assets/sfig-logo.png";
 
 function Contact() {
   return (
     <div className="contact">
       <div className="container">
         <div className="row align-items-center my-5">
-          <div className="col-3 mr-4">
-            <img className="img-fluid rounded"
-            src={image}
-            width="280px"
-            alt="SFIG-Logo" />
-          </div>
-          <div className="col-7 py-5 my-5 fadeInRight">
+          <div className="w-100 py-5 my-5 mx-3 fadeInRight">
           <h1 className="py-2 font-weight-bold" style={{fontSize: "50px"}}>Get In Touch</h1>
           <p style={{fontSize: "25px"}}>Email: slugsfundig@gmail.com</p>
           <p style={{fontSize: "25px"}}>Instagram: <a href="https://www.instagram.com/ucsc.sfig/" target="_blank" rel="noopener noreferrer">www.instagram.com/ucsc.sfig/</a></p>

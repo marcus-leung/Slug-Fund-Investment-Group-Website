@@ -1,6 +1,4 @@
 import React from "react";
-import insta from "../assets/instagram-logo.jpg";
-import twitter from "../assets/twitter-logo.jpg";
 import { Link } from "react-router-dom";
 import { BsTwitterX, BsLinkedin, BsInstagram } from "react-icons/bs";
 

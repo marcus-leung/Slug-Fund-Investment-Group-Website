@@ -20,7 +20,7 @@ function Navigation() {
           </NavLink>
 
           <button
-            class="navbar-toggler navbar-dark"
+            className="navbar-toggler navbar-dark"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -29,7 +29,7 @@ function Navigation() {
             aria-label="Toggle navigation"
             style={{ margin: "0", padding: "5px" }}
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
