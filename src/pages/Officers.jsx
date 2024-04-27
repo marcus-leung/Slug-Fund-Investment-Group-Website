@@ -7,7 +7,7 @@ import Marcus from "../assets/MemberPhotos/Marcus.jpg";
 import Trevor from "../assets/MemberPhotos/Trevor.png";
 import Alex from "../assets/MemberPhotos/Alex.png";
 import Ryan from "../assets/MemberPhotos/Ryan.png";
-import Josephine from "../assets/MemberPhotos/Josephine.png";
+import Joanne from "../assets/MemberPhotos/Joanne.png";
 import MJ from "../assets/MemberPhotos/MJ.png";
 import Kevin from "../assets/MemberPhotos/Kevin.png";
 import Bruno from "../assets/MemberPhotos/Bruno.png";
@@ -86,9 +86,10 @@ function Members() {
             align="center"
           >
             <Person
-              img={Josephine}
-              name="Josephine Wang"
+              img={Joanne}
+              name="Joanne Liu"
               role="Officer of External Affairs"
+              linkedin="https://www.linkedin.com/in/joanne-liu-91803a294/"
             />
           </div>
           <div
