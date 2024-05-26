@@ -25,11 +25,24 @@ import image13 from '../assets/YearlyPhotos/2023-2024/23.24.7.jpg';
 import image14 from '../assets/YearlyPhotos/2023-2024/23.24.8.jpg';
 import image15 from '../assets/YearlyPhotos/2023-2024/23.24.9.jpg';
 
+//UCI Office Trip
+import image16 from '../assets/YearlyPhotos/2023-2024/23.24.10.jpeg';
+
 function Photos() {
   return (
     <div className='photos'>
       <div className='container'>
         <div className='align-items-center text-center'>
+          <img
+            className='img-fluid pt-5'
+            src={image16}
+            alt='UC Investment Office Trip in Oakland'
+          ></img>
+          <h1 className='font-weight-bold text-center pt-4'>
+            UC Investments Office Field Trip
+            <h3>Spring 2024</h3>
+          </h1>
+          <hr />
           <img
             className='img-fluid pt-5'
             src={image13}
@@ -72,18 +85,18 @@ function Photos() {
             src={image12}
             alt='UC Investment Guest Speaker'
           ></img>
-            <img
-              className='img-fluid py-5 pl-5 pr-1'
-              width='45%'
-              src={image10}
-              alt='Brian takes a selfie'
-            ></img>
-            <img
-              className='img-fluid py-5 pr-5 pl-1'
-              width='55%'
-              src={image11}
-              alt='Marcus has pizza'
-            ></img>
+          <img
+            className='img-fluid py-5 pl-5 pr-1'
+            width='45%'
+            src={image10}
+            alt='Brian takes a selfie'
+          ></img>
+          <img
+            className='img-fluid py-5 pr-5 pl-1'
+            width='55%'
+            src={image11}
+            alt='Marcus has pizza'
+          ></img>
           <h1 className='font-weight-bold text-center'>
             UC Investment Guest Speaker Event
             <h2>with Jimmy Castro</h2>
