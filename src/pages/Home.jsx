@@ -5,7 +5,7 @@ import discord from "../assets/discord.png";
 import { Link } from "react-router-dom";
 import texts from "../data/texts";
 import faq from "../data/faq";
-import Jinsung from "../assets/MemberPhotos/Jinsung.png";
+import Jinsung from "../assets/AlumniPhotos/Jinsung.png";
 import QRcode from "../assets/qrcode.png";
 import Loc from "../assets/meeting_loc.png";
 
@@ -93,7 +93,7 @@ function Home() {
               className="img-fluid rounded"
               style={{ border: "7px solid black" }}
               src={Jinsung}
-              alt="president"
+              alt="Alumni Vice President"
             />
           </div>
           <div className="col-lg">
