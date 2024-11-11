@@ -37,3 +37,4 @@ If you have any questions, suggestions, or concerns, please feel free to reach o
 # For developer
 - To run locally: npm start
 - To build: npm run build
+- To Deploy: npm run deploy
