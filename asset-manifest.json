@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://slugfundinvestmentgroup.com/static/css/main.ae8d0c5c.css",
-    "main.js": "https://slugfundinvestmentgroup.com/static/js/main.cfea9ffd.js",
+    "main.js": "https://slugfundinvestmentgroup.com/static/js/main.5d75053a.js",
     "static/media/23.24.8.jpg": "https://slugfundinvestmentgroup.com/static/media/23.24.8.fc62df60d5d0fb2b886b.jpg",
     "static/media/21.22.4.jpg": "https://slugfundinvestmentgroup.com/static/media/21.22.4.cfad8c0d905a81d154be.jpg",
     "static/media/21.22.1.jpg": "https://slugfundinvestmentgroup.com/static/media/21.22.1.633aed11c535f909acd1.jpg",
@@ -14,12 +14,10 @@
     "static/media/Bruno.png": "https://slugfundinvestmentgroup.com/static/media/Bruno.3320f04ca4209b7aba56.png",
     "static/media/sfig-logo.png": "https://slugfundinvestmentgroup.com/static/media/sfig-logo.33e3833b6aabbb8ceaaa.png",
     "static/media/Alayna.png": "https://slugfundinvestmentgroup.com/static/media/Alayna.cea98903aef8574fbf8c.png",
-    "static/media/MJ.png": "https://slugfundinvestmentgroup.com/static/media/MJ.a6fb616e62846d5bd4a5.png",
     "static/media/23.24.7.jpg": "https://slugfundinvestmentgroup.com/static/media/23.24.7.0c579cc38df6db6176d7.jpg",
     "static/media/Kevin.png": "https://slugfundinvestmentgroup.com/static/media/Kevin.f2e8ec565c645c863ec9.png",
     "static/media/Alex.png": "https://slugfundinvestmentgroup.com/static/media/Alex.6fc487bf9611f1058158.png",
     "static/media/Trevor.png": "https://slugfundinvestmentgroup.com/static/media/Trevor.6b534223269553a09ae8.png",
-    "static/media/Ryan.png": "https://slugfundinvestmentgroup.com/static/media/Ryan.4b441e5159042e69380b.png",
     "static/media/Joanne.png": "https://slugfundinvestmentgroup.com/static/media/Joanne.f0349ec4b54ba851682d.png",
     "static/media/Jinsung.png": "https://slugfundinvestmentgroup.com/static/media/Jinsung.d851e4d951faf007ff1b.png",
     "static/media/Marcus.jpg": "https://slugfundinvestmentgroup.com/static/media/Marcus.3f80d54cb16b044afa61.jpg",
@@ -43,10 +41,10 @@
     "static/media/apple.png": "https://slugfundinvestmentgroup.com/static/media/apple.d3b35d08323973146505.png",
     "index.html": "https://slugfundinvestmentgroup.com/index.html",
     "main.ae8d0c5c.css.map": "https://slugfundinvestmentgroup.com/static/css/main.ae8d0c5c.css.map",
-    "main.cfea9ffd.js.map": "https://slugfundinvestmentgroup.com/static/js/main.cfea9ffd.js.map"
+    "main.5d75053a.js.map": "https://slugfundinvestmentgroup.com/static/js/main.5d75053a.js.map"
   },
   "entrypoints": [
     "static/css/main.ae8d0c5c.css",
-    "static/js/main.cfea9ffd.js"
+    "static/js/main.5d75053a.js"
   ]
 }
