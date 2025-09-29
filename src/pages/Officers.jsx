@@ -65,7 +65,7 @@ function Members() {
               img={Julian}
               name='Julian Marquit'
               role='Chief Operating Officer'
-              linkedin='www.linkedin.com/in/julian-marquit'
+              linkedin='http://www.linkedin.com/in/julian-marquit'
             />
           </div>
           <div
