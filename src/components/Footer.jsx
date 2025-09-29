@@ -9,7 +9,7 @@ function Footer() {
         <div className="container">
           <div className="row">
           <p className="text-center ml-5 pl-5 text-white col-10">
-            Slug Fund Investment Group<br></br> 2023 - 2024
+            Slug Fund Investment Group<br></br> 2025 - 2026
           </p>
           <div className="icons col">
             <div className="text-right">

@@ -41,7 +41,7 @@ function Home() {
               height="110%"/>
             </div>
             <div className="col-lg-5 offset-lg-1">
-              <h2>Weekly Meetings on Thurdays 8pm-9pm in Social Science 2 Room 075!</h2>
+              <h2>Weekly Meetings times and locations are announced on Discord/Instagram!</h2>
             </div>
           </div>
         </div>
