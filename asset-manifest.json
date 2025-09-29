@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://slugfundinvestmentgroup.com/static/css/main.ae8d0c5c.css",
-    "main.js": "https://slugfundinvestmentgroup.com/static/js/main.97e0b7a1.js",
+    "main.js": "https://slugfundinvestmentgroup.com/static/js/main.f51b91a6.js",
     "static/media/23.24.8.jpg": "https://slugfundinvestmentgroup.com/static/media/23.24.8.fc62df60d5d0fb2b886b.jpg",
     "static/media/21.22.4.jpg": "https://slugfundinvestmentgroup.com/static/media/21.22.4.cfad8c0d905a81d154be.jpg",
     "static/media/21.22.1.jpg": "https://slugfundinvestmentgroup.com/static/media/21.22.1.633aed11c535f909acd1.jpg",
@@ -48,10 +48,10 @@
     "static/media/apple.png": "https://slugfundinvestmentgroup.com/static/media/apple.d3b35d08323973146505.png",
     "index.html": "https://slugfundinvestmentgroup.com/index.html",
     "main.ae8d0c5c.css.map": "https://slugfundinvestmentgroup.com/static/css/main.ae8d0c5c.css.map",
-    "main.97e0b7a1.js.map": "https://slugfundinvestmentgroup.com/static/js/main.97e0b7a1.js.map"
+    "main.f51b91a6.js.map": "https://slugfundinvestmentgroup.com/static/js/main.f51b91a6.js.map"
   },
   "entrypoints": [
     "static/css/main.ae8d0c5c.css",
-    "static/js/main.97e0b7a1.js"
+    "static/js/main.f51b91a6.js"
   ]
 }
